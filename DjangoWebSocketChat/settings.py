@@ -25,7 +25,7 @@ SECRET_KEY = '*)ofhy9!q0qh80v$09e2tje&h%ol01o)0n@rh(d&rn73(wke_o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'channels',
-    'chat',
+    'WebSocket',
 ]
 
 MIDDLEWARE = [
